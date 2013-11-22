@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 0 elements to &apos;drawable-xhdpi&apos;&#x0A;- Destination element: &apos;drawable-xhdpi&apos;&#x0A;- Update references to refactored element" description="Move compilation units" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1385131037449" target="/ASIC_Small_Busnesss/res/drawable-xhdpi" units="0" version="1.0"/>
+</session>
