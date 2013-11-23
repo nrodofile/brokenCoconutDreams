@@ -6,10 +6,26 @@
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="android.R.string"/>
 <fullyQualifiedTypeName name="android.widget.ArrayAdapter"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="java.util.HashMap"/>
 <fullyQualifiedTypeName name="android.R.integer"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="com.example.asic_small_busnesss.MainActivity.ListAdapter"/>
 <fullyQualifiedTypeName name="android.widget.AdapterView"/>
+<fullyQualifiedTypeName name="android.widget.AdapterView.OnItemClickListener"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="android.content.Intent"/>
+<fullyQualifiedTypeName name="java.lang.Class"/>
+<fullyQualifiedTypeName name="java.lang.ClassCastException"/>
+<fullyQualifiedTypeName name="com.example.asic_small_busnesss.OverviewActivity"/>
+<fullyQualifiedTypeName name="com.example.asic_small_busnesss.StartingActivity"/>
+<fullyQualifiedTypeName name="com.example.asic_small_busnesss.ComplianceActivity"/>
+<fullyQualifiedTypeName name="com.example.asic_small_busnesss.ClosingActivity"/>
+<fullyQualifiedTypeName name="com.example.asic_small_busnesss.ResorucesActivity"/>
+<fullyQualifiedTypeName name="com.example.asic_small_busnesss.HotTopicsActivity"/>
+<fullyQualifiedTypeName name="com.example.asic_small_busnesss.FAQsActivity"/>
+<fullyQualifiedTypeName name="com.example.asic_small_busnesss.EnewsActivity"/>
+<fullyQualifiedTypeName name="android.app.Notification.Action"/>
+<fullyQualifiedTypeName name="android.app.ActionBar"/>
+<fullyQualifiedTypeName name="android.view.MenuItem"/>
+<fullyQualifiedTypeName name="com.example.asic_small_busnesss.AboutActivity"/>
 </qualifiedTypeNameHistroy>

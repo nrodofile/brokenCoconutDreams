@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Business Smart</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="home_txt_overview">Overview</string>
+    <string name="home_txt_starting">Starting a Small Business</string>
+    <string name="home_txt_complience" />
+    <string name="home_txt_closing">Closing a Small Business</string>
+    <string name="home_txt_resources">Small Business Resources</string>
+    <string name="home_txt_topics">Hot Topics</string>
+    <string name="home_txt_faq">Top 10 FAQ for Small Busnesses</string>
+    <string name="home_txt_news">e-Newsletter for small Businesses</string>
+    <string name="home_txt_title">Business Smart</string>
+    <string name="dsc_logo">logo</string>
+    <string name="title_activity_overview">OverviewActivity</string>
+    <string name="title_activity_starting">StartingActivity</string>
+
+</resources>

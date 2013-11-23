@@ -22,6 +22,42 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.example.asic_small_busnesss.OverviewActivity"
+            android:label="@string/title_activity_overview" >
+        </activity>
+        <activity
+            android:name="com.example.asic_small_busnesss.StartingActivity"
+            android:label="@string/title_activity_starting" >
+        </activity>
+        <activity
+            android:name="com.example.asic_small_busnesss.ComplianceActivity"
+            android:label="@string/title_activity_compliance" >
+        </activity>
+        <activity
+            android:name="com.example.asic_small_busnesss.ClosingActivity"
+            android:label="@string/title_activity_closing" >
+        </activity>
+        <activity
+            android:name="com.example.asic_small_busnesss.ResorucesActivity"
+            android:label="@string/title_activity_resoruces" >
+        </activity>
+        <activity
+            android:name="com.example.asic_small_busnesss.HotTopicsActivity"
+            android:label="@string/title_activity_hot_topics" >
+        </activity>
+        <activity
+            android:name="com.example.asic_small_busnesss.FAQsActivity"
+            android:label="@string/title_activity_faqs" >
+        </activity>
+        <activity
+            android:name="com.example.asic_small_busnesss.EnewsActivity"
+            android:label="@string/title_activity_enews" >
+        </activity>
+        <activity
+            android:name="com.example.asic_small_busnesss.AboutActivity"
+            android:label="@string/title_activity_about" >
+        </activity>
     </application>
 
 </manifest>
