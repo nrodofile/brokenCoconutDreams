@@ -4,8 +4,10 @@ import android.os.Bundle;
 import android.annotation.SuppressLint;
 import android.app.ActionBar;
 import android.app.Activity;
+import android.text.method.LinkMovementMethod;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
 
 public class AboutActivity extends Activity {
 
@@ -14,6 +16,9 @@ public class AboutActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_about);
+		
+		TextView link = (TextView) findViewById(R.id.about_link);
+		link.setMovementMethod(LinkMovementMethod.getInstance());
 		
 		setTitle("About This App");
 		ActionBar actionBar = getActionBar();

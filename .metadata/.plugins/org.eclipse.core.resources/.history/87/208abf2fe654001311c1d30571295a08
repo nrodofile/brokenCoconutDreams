@@ -1,0 +1,77 @@
+package com.example.asic_small_busnesss;
+
+import java.util.ArrayList;
+
+import android.annotation.SuppressLint;
+import android.app.ActionBar;
+import android.app.Activity;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ListView;
+
+public class OverviewActivity extends Activity {
+
+	public final static String EXTRA_SELECTION = "com.example.overview.SELECTED";
+	public final static String EXTRA_TITLE = "com.example.overview.TITLE";
+
+	@SuppressLint("NewApi")
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.activity_overview);
+
+		setTitle("Overview");
+		ActionBar actionBar = getActionBar();
+		actionBar.setHomeButtonEnabled(true);
+		getActionBar().setDisplayHomeAsUpEnabled(true);
+
+		final ListView listview = (ListView) findViewById(R.id.overview_list_view);
+
+		final String[] values = new String[] { "What is a 'small business'?",
+				"Why small business is importaint to ASIC",
+				"Complience for a Small Business",
+				"Why complying with law is important" };
+
+		final Integer[] content = new Integer[] { R.string.Overview_Content_0,
+				R.string.Overview_Content_1, R.string.Overview_Content_2,
+				R.string.Overview_Content_3 };
+
+		final ArrayList<String> list = new ArrayList<String>();
+		for (int i = 0; i < values.length; ++i) {
+			list.add(values[i]);
+		}
+		final StableArrayAdapter adapter = new StableArrayAdapter(this,
+				android.R.layout.simple_list_item_1, list);
+		listview.setAdapter(adapter);
+		listview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+
+			@Override
+			public void onItemClick(AdapterView<?> parent, View view,
+					int position, long id) {
+				view.animate().setDuration(500);
+				Intent intent = new Intent(getApplicationContext(),
+						OverviewContentActivity.class);
+				intent.putExtra(EXTRA_SELECTION, content[position]);
+				intent.putExtra(EXTRA_TITLE, values[position]);
+				startActivity(intent);
+			}
+		});
+	}
+
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.overview, menu);
+		return true;
+	}
+
+	public boolean onOptionsItemSelected(MenuItem menuItem) {
+		onBackPressed();
+		return true;
+	}
+
+}

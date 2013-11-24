@@ -2,7 +2,6 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="android.app.ListActivity"/>
 <fullyQualifiedTypeName name="android.widget.ListView"/>
-<fullyQualifiedTypeName name="com.example.asic_small_busnesss.R.id"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="android.R.string"/>
 <fullyQualifiedTypeName name="android.widget.ArrayAdapter"/>
@@ -12,11 +11,8 @@
 <fullyQualifiedTypeName name="com.example.asic_small_busnesss.MainActivity.ListAdapter"/>
 <fullyQualifiedTypeName name="android.widget.AdapterView"/>
 <fullyQualifiedTypeName name="android.widget.AdapterView.OnItemClickListener"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
-<fullyQualifiedTypeName name="android.content.Intent"/>
 <fullyQualifiedTypeName name="java.lang.Class"/>
 <fullyQualifiedTypeName name="java.lang.ClassCastException"/>
-<fullyQualifiedTypeName name="com.example.asic_small_busnesss.OverviewActivity"/>
 <fullyQualifiedTypeName name="com.example.asic_small_busnesss.StartingActivity"/>
 <fullyQualifiedTypeName name="com.example.asic_small_busnesss.ComplianceActivity"/>
 <fullyQualifiedTypeName name="com.example.asic_small_busnesss.ClosingActivity"/>
@@ -28,4 +24,16 @@
 <fullyQualifiedTypeName name="android.app.ActionBar"/>
 <fullyQualifiedTypeName name="android.view.MenuItem"/>
 <fullyQualifiedTypeName name="com.example.asic_small_busnesss.AboutActivity"/>
+<fullyQualifiedTypeName name="com.example.asic_small_busnesss.OverviewContentActivity"/>
+<fullyQualifiedTypeName name="android.content.Intent"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="com.example.asic_small_busnesss.OverviewActivity"/>
+<fullyQualifiedTypeName name="com.example.asic_small_busnesss.R.string"/>
+<fullyQualifiedTypeName name="com.example.asic_small_busnesss.R.id"/>
+<fullyQualifiedTypeName name="android.R.bool"/>
+<fullyQualifiedTypeName name="java.lang.Boolean"/>
+<fullyQualifiedTypeName name="android.text.Html"/>
+<fullyQualifiedTypeName name="android.text.method.LinkMovementMethod"/>
+<fullyQualifiedTypeName name="android.widget.TextView"/>
 </qualifiedTypeNameHistroy>

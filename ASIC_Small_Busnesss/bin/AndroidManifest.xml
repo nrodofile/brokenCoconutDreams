@@ -58,6 +58,10 @@
             android:name="com.example.asic_small_busnesss.AboutActivity"
             android:label="@string/title_activity_about" >
         </activity>
+        <activity
+            android:name="com.example.asic_small_busnesss.OverviewContentActivity"
+            android:label="@string/title_activity_overview_content" >
+        </activity>
     </application>
 
 </manifest>
